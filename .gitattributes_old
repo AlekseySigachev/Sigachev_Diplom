@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.psd filter=lfs diff=lfs merge=lfs -text
+Content/DungeonLamps filter=lfs diff=lfs merge=lfs -text
+Content/DungeonLamps/Textures/T_DungeonLamps_001_cc.uasset filter=lfs diff=lfs merge=lfs -text
+Content/DungeonLamps/Textures/T_DungeonLamps_001_nm.uasset filter=lfs diff=lfs merge=lfs -text
+Content/DungeonLamps/Textures/T_DungeonLamps_002_aorame.uasset filter=lfs diff=lfs merge=lfs -text
+Content/DungeonLamps/Textures/T_DungeonLamps_002_cc.uasset filter=lfs diff=lfs merge=lfs -text
+Content/DungeonLamps/Textures/T_DungeonLamps_002_nm.uasset filter=lfs diff=lfs merge=lfs -text
+Content/DungeonLamps/Textures/T_DungeonLamps_001_aorame.uasset filter=lfs diff=lfs merge=lfs -text
